@@ -27,7 +27,7 @@ function updateClock() {
     document.body.style.backgroundSize = "cover"
     document.body.style.backgroundPosition = "center"
   }
-    else if ((h < 7 && ampm === "PM") || (h = 12 && ampm === "AM")) {
+    else if ((h < 7 && ampm === "PM") {
     document.body.style.background ="url(https://images.unsplash.com/photo-1588144214372-fdf95ed8625b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80)"
     document.body.style.backgroundSize = "cover"
     document.body.style.backgroundPosition = "center"
